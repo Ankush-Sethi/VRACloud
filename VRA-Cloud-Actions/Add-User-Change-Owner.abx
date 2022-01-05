@@ -1,0 +1,17 @@
+---
+exportVersion: "1"
+exportId: "8a5ed8727d3752d1017d4770bd077413"
+name: "Add-User&Change-Owner"
+runtime: "python"
+entrypoint: "handler"
+inputs:
+  psecret:2ad6f1b2-f157-48ef-a351-825a4837b9dc: ""
+  psecret:38963f00-cac9-4f5a-b9ee-b279ca697550: ""
+timeoutSeconds: 600
+deploymentTimeoutSeconds: 900
+dependencies: "requests"
+actionType: "SCRIPT"
+provider: "on-prem"
+configuration:
+  const_azure-system_managed_identity: false
+memoryInMB: 300
