@@ -1,0 +1,17 @@
+---
+exportVersion: "1"
+exportId: "8a5e21da81bdd19e01820ccc8d365cdd"
+name: "Kubernetes Installation"
+runtime: "powershell"
+entrypoint: "handler"
+inputs:
+  secret:8a5e21da81bdd19e0182107917ba4c77: ""
+  secret:8a5e21da81bdd19e018210795fa14c80: ""
+  secret:8a5eeb1281bdd189018210798a984a57: ""
+timeoutSeconds: 900
+deploymentTimeoutSeconds: 900
+actionType: "SCRIPT"
+provider: "on-prem"
+configuration:
+  const_azure-system_managed_identity: false
+memoryInMB: 500
