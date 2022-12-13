@@ -1,0 +1,19 @@
+---
+exportVersion: "1"
+exportId: "8a5ef3947c923851017cb36360de0e38"
+name: "Teams Notification"
+runtime: "python"
+entrypoint: "handler"
+inputs:
+  psecret:1e050062-6076-423d-b93b-85570267fa8f: ""
+  psecret:398a6f85-30c9-43cd-bf9d-62ec6a1e1f9b: ""
+  psecret:7997327d-71eb-4ec5-9dd3-244b113f6300: ""
+  psecret:aea6262b-6237-4511-b391-06646509a88c: ""
+timeoutSeconds: 600
+deploymentTimeoutSeconds: 900
+dependencies: "requests"
+actionType: "SCRIPT"
+provider: "on-prem"
+configuration:
+  const_azure-system_managed_identity: false
+memoryInMB: 300

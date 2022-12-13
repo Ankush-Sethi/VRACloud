@@ -1,0 +1,18 @@
+---
+exportVersion: "1"
+exportId: "8a5e3aae7c3acda6017cacb7891d7199"
+name: "SlackNotification"
+runtime: "python"
+entrypoint: "handler"
+inputs:
+  psecret:1e050062-6076-423d-b93b-85570267fa8f: ""
+  psecret:398a6f85-30c9-43cd-bf9d-62ec6a1e1f9b: ""
+  psecret:6bb3e770-1811-45b6-a3b9-6c129228e176: ""
+timeoutSeconds: 600
+deploymentTimeoutSeconds: 900
+dependencies: "requests"
+actionType: "SCRIPT"
+provider: "on-prem"
+configuration:
+  const_azure-system_managed_identity: false
+memoryInMB: 300
