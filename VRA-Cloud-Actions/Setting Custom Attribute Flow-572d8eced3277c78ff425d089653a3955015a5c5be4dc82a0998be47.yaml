@@ -1,0 +1,12 @@
+---
+version: 1
+flow:
+  flow_start:
+    next: action1
+  action1:
+    action: Get_Deployment_Details_vCenter
+    next: action2
+  action2:
+    action: Add vSphere Custom Attribute
+    next: flow_end
+

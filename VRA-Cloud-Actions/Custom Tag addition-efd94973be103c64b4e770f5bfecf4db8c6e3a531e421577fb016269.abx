@@ -1,0 +1,12 @@
+---
+exportVersion: "1"
+exportId: "8a5e8f5c81bdd17b0181fcd5a3ff62c3"
+name: "Custom Tag addition"
+runtime: "python"
+entrypoint: "handler"
+inputs:
+  target: "World"
+timeoutSeconds: 600
+deploymentTimeoutSeconds: 900
+actionType: "SCRIPT"
+memoryInMB: 300

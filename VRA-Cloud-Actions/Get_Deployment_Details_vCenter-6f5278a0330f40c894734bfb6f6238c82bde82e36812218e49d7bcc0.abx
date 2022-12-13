@@ -1,0 +1,18 @@
+---
+exportVersion: "1"
+exportId: "8a5e0a1182de2418018375e1033868e9"
+name: "Get_Deployment_Details_vCenter"
+runtime: "python"
+entrypoint: "handler"
+inputs:
+  deploymentId: "asd"
+  psecret:1e050062-6076-423d-b93b-85570267fa8f: ""
+  psecret:398a6f85-30c9-43cd-bf9d-62ec6a1e1f9b: ""
+timeoutSeconds: 600
+deploymentTimeoutSeconds: 900
+dependencies: "requests"
+actionType: "SCRIPT"
+provider: "on-prem"
+configuration:
+  const_azure-system_managed_identity: false
+memoryInMB: 300

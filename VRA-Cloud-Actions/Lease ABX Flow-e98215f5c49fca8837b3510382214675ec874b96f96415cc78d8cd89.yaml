@@ -1,0 +1,12 @@
+---
+version: 1
+flow:
+  flow_start:
+    next: action1
+  action1:
+    action: Add-User&Change-Owner
+    next: action2
+  action2:
+    action: Automatic-Deletion
+    next: flow_end
+

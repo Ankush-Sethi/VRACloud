@@ -1,0 +1,14 @@
+---
+exportVersion: "1"
+exportId: "8a5e3ea07f7f343c01803b87ebee532d"
+name: "Powershell Check"
+runtime: "powershell"
+entrypoint: "handler"
+inputs:
+  target: "World"
+timeoutSeconds: 600
+deploymentTimeoutSeconds: 900
+actionType: "SCRIPT"
+configuration:
+  const_azure-system_managed_identity: false
+memoryInMB: 300

@@ -1,0 +1,19 @@
+---
+exportVersion: "1"
+exportId: "8a5ef12c83926a0e0183a952d37f506a"
+name: "vRA On-Prem Auth"
+runtime: "python"
+entrypoint: "handler"
+inputs:
+  domain: "vmwarecode.com"
+  vrafqdn: "cava-6-245-082.eng.vmware.com"
+  password: "VMware123!"
+  username: "ankush"
+timeoutSeconds: 600
+deploymentTimeoutSeconds: 900
+dependencies: "requests"
+actionType: "SCRIPT"
+provider: "on-prem"
+configuration:
+  const_azure-system_managed_identity: false
+memoryInMB: 300

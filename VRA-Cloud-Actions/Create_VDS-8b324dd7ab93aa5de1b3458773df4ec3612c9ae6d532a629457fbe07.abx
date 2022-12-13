@@ -1,0 +1,21 @@
+---
+exportVersion: "1"
+exportId: "8a74809683f30cb201848a3dbe050047"
+name: "Create_VDS"
+runtime: "powershell"
+entrypoint: "handler"
+inputs:
+  mtu: 9000
+  Password: "VMware1!"
+  vdsversion: "7.0.0"
+  vCentername: "10.206.240.102"
+  datacenter_name: "Ankush-DC"
+  vCenterusername: "administrator@vsphere.local"
+  secret:8a74809683f30cb201848a4d392a004d: ""
+timeoutSeconds: 600
+deploymentTimeoutSeconds: 900
+actionType: "SCRIPT"
+provider: "on-prem"
+configuration:
+  const_azure-system_managed_identity: false
+memoryInMB: 300

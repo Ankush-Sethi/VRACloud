@@ -1,0 +1,16 @@
+---
+exportVersion: "1"
+exportId: "8a1bdf038392a8860183c1b4dc120cd5"
+name: "__compute_allocation_pre"
+runtime: "python"
+entrypoint: "handler.handler"
+description: "Compute Pre Allocation ABX action"
+inputs:
+  secret:8a1b19e38392a8e30183c1c504590c7b: ""
+  secret:8a1b19e38392a8e30183c1c504840c7c: ""
+  secret:8a1bbc6b8392a8f80183c1bcd5110c52: ""
+  psecret:389ac413-1acd-4283-8e4f-c78cc1d68283: ""
+timeoutSeconds: 900
+deploymentTimeoutSeconds: 900
+actionType: "SCRIPT"
+memoryInMB: 200

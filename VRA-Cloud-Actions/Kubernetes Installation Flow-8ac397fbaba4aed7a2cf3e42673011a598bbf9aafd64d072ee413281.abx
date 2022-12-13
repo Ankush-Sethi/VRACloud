@@ -1,0 +1,7 @@
+---
+exportVersion: "1"
+exportId: "8a5e21da81bdd19e01821098ce62509f"
+name: "Kubernetes Installation Flow"
+timeoutSeconds: 600
+actionType: "FLOW"
+memoryInMB: 300

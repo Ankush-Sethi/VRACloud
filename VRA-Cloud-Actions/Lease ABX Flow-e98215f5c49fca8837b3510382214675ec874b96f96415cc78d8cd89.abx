@@ -1,0 +1,7 @@
+---
+exportVersion: "1"
+exportId: "8a5e21da81bdd19e0182115626da67be"
+name: "Lease ABX Flow"
+timeoutSeconds: 600
+actionType: "FLOW"
+memoryInMB: 300

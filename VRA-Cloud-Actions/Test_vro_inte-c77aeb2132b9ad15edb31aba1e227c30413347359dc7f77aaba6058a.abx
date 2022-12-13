@@ -1,0 +1,16 @@
+---
+exportVersion: "1"
+exportId: "8a5e9f3983926a610183fa61f1c65bfb"
+name: "Test_vro_inte"
+runtime: "python"
+entrypoint: "handler"
+inputs:
+  target: "World"
+timeoutSeconds: 600
+deploymentTimeoutSeconds: 900
+dependencies: "requests"
+actionType: "SCRIPT"
+provider: "on-prem"
+configuration:
+  const_azure-system_managed_identity: false
+memoryInMB: 300

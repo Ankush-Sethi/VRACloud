@@ -1,0 +1,17 @@
+---
+exportVersion: "1"
+exportId: "8a5e0a1182de2418018375e58532698f"
+name: "Add vSphere Custom Attribute"
+runtime: "powershell"
+entrypoint: "handler"
+inputs:
+  psecret:008aad20-d460-4d07-9383-ab2e2c03680a: ""
+  psecret:d489c4e3-c855-4992-b3a7-7942e7d94051: ""
+  psecret:f05e759b-8886-4761-bc28-799b900bd6a2: ""
+timeoutSeconds: 900
+deploymentTimeoutSeconds: 900
+actionType: "SCRIPT"
+provider: "on-prem"
+configuration:
+  const_azure-system_managed_identity: false
+memoryInMB: 500

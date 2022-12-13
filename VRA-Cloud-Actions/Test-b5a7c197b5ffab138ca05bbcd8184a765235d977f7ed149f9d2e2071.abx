@@ -1,0 +1,13 @@
+---
+exportVersion: "1"
+exportId: "8a5ec29b824df04b01825fdc4ecb442e"
+name: "Test"
+runtime: "python"
+entrypoint: "handler"
+inputs:
+  target: "World"
+timeoutSeconds: 600
+deploymentTimeoutSeconds: 900
+actionType: "SCRIPT"
+provider: "on-prem"
+memoryInMB: 300

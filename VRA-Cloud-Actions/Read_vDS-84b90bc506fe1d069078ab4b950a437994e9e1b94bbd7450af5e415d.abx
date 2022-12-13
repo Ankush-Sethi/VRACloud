@@ -1,0 +1,15 @@
+---
+exportVersion: "1"
+exportId: "8a74809683f30cb201848a436e0a004c"
+name: "Read_vDS"
+runtime: "powershell"
+entrypoint: "handler"
+inputs:
+  secret:8a74809683f30cb201848a4d392a004d: ""
+  secret:8a74809683f30cb201848a4f5b46004e: ""
+  secret:8a74809683f30cb201848a4f9e14004f: ""
+  secret:8a74809683f30cb201848a4fc5ff0050: ""
+timeoutSeconds: 600
+deploymentTimeoutSeconds: 900
+actionType: "SCRIPT"
+memoryInMB: 300

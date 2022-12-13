@@ -1,0 +1,7 @@
+---
+exportVersion: "1"
+exportId: "8a5eface82de24430183761057504e23"
+name: "Setting Custom Attribute Flow"
+timeoutSeconds: 600
+actionType: "FLOW"
+memoryInMB: 300

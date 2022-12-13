@@ -1,0 +1,10 @@
+---
+exportVersion: "1"
+exportId: "8a5ee6237f7f33bb017fef4cf34a04ff"
+name: "initialPowerOn"
+runtime: "python"
+entrypoint: "handler"
+timeoutSeconds: 600
+deploymentTimeoutSeconds: 900
+actionType: "SCRIPT"
+memoryInMB: 300

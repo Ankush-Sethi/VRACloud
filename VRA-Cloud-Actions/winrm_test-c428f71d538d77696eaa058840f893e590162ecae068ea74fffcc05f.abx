@@ -1,0 +1,14 @@
+---
+exportVersion: "1"
+exportId: "8a5eeee08045d929018066b70a661fb3"
+name: "winrm_test"
+runtime: "python"
+entrypoint: "handler"
+timeoutSeconds: 600
+deploymentTimeoutSeconds: 900
+dependencies: "pywinrm"
+actionType: "SCRIPT"
+provider: "on-prem"
+configuration:
+  const_azure-system_managed_identity: false
+memoryInMB: 300
