@@ -1,0 +1,16 @@
+---
+exportVersion: "1"
+exportId: "8a5ebcf3861b65ae018626e76b4b133c"
+name: "VMRC"
+runtime: "powershell"
+entrypoint: "handler"
+inputs:
+  vmname: "vExpertProxy"
+  endpointid: "4e1e9716-568e-447a-bf89-2c370dbe345a"
+timeoutSeconds: 600
+deploymentTimeoutSeconds: 900
+actionType: "SCRIPT"
+provider: "on-prem"
+configuration:
+  const_azure-system_managed_identity: false
+memoryInMB: 300
