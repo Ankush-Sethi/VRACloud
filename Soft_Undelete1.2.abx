@@ -1,0 +1,20 @@
+---
+exportVersion: "1"
+exportId: "8a5ee93388ec3fd20189410b270726d6"
+name: "Soft_Undelete1.2"
+runtime: "nodejs"
+entrypoint: "handler"
+inputs:
+  deploymentId: "1945ac87-ece3-48fe-b6bb-443f96058c78"
+  minSoftDeleteOffset: 10
+  secret:8a5e2ae183926a380183cbbc9b5770f8: ""
+  secret:8a5e9f3983926a610183cadea985616c: ""
+timeoutSeconds: 600
+deploymentTimeoutSeconds: 900
+dependencies: "{ \"axios\": \"^0.24.0\", \"tunnel\": \"^0.0.6\" }"
+actionType: "SCRIPT"
+provider: "on-prem"
+configuration:
+  const_azure-system_managed_identity: false
+memoryInMB: 300
+runtimeVersion: "14"
